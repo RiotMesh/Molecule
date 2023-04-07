@@ -1,7 +1,10 @@
-from libs.io import MoleculaIO
+from libs import config
+from libs.console import MoleculeConsole
+from libs.language import lang
 
-console = MoleculaIO("Leviafan4ik")
+# initialization
+console = MoleculeConsole()
 
-console.message("Hello world from Molecule console!")
-console.warning("Warning from Molecule console!")
-console.error("Error from Molecule console!")
+# main program
+console.message("Molecule launched!")
+console.warning(config.mget("shell.name"))

@@ -1,0 +1,9 @@
+{
+  "molecule": {
+    "egg": "Yep! Have you found an Easter egg!",
+    "shell.name": "Molecule"
+  },
+  "user": {
+    "name": "default"
+  }
+}

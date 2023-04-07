@@ -1,0 +1,3 @@
+# Use this file to chose language
+# ru - Russian, en - English
+ru
