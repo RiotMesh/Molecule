@@ -1,7 +1,11 @@
 {
   "molecule": {
     "egg": "Yep! Have you found an Easter egg!",
-    "shell.name": "Molecule"
+    "first_time": true,
+    "shell.name": "Molecule",
+    "shell.separate_output": true,
+    "shell.print_effect": true,
+    "shell.print_effect.delay": 0.006
   },
   "user": {
     "name": "default"
