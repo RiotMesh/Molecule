@@ -1,8 +1,6 @@
 import json
 from libs.language import lang
-from libs.console import MoleculeConsole
-
-console = MoleculeConsole()
+from libs import console
 
 
 def mget(path):

@@ -2,10 +2,15 @@
   "molecule": {
     "egg": "Yep! Have you found an Easter egg!",
     "first_time": true,
-    "shell.name": "Molecule",
-    "shell.separate_output": true,
-    "shell.print_effect": true,
-    "shell.print_effect.delay": 0.006
+    "name": "Molecule",
+    "separate_output": true,
+    "print_effect": true,
+    "print_effect_delay": 0.006,
+    "print_effect_sound": true,
+    "print_effect_sound_delay": 0.08,
+    "print_effect_sound_volume": 0.4,
+    "shell_sounds": true,
+    "shell_sounds_volume": 0.4
   },
   "user": {
     "name": "default"
